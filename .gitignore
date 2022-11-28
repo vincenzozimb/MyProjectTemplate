@@ -1,3 +1,4 @@
+## Default CMake gitignore files ##
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -9,3 +10,26 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+
+## Add more ##
+
+# Object files
+*.o
+
+# Libraries
+*.lib
+
+# Executables
+*.exe
+*.out
+
+# various
+*.pdf
+*.png
+*.csv
+*.eps
+.vscode
+
+# Build directories
+build/
